@@ -1,0 +1,79 @@
+:root{
+    --header-height: 3rem;
+    --font-medium:500;
+    --first-color:#30336b;
+    --white-color:#FAFAFF;
+    --dark-color:#3d3d3d;
+    --text-color:#33414e;
+    --body-font:'Luxurious Roman', cursive;
+    --big-font-size:6.25rem;
+    --h2-font-size:1.25rem;
+    --normal-font-size:.938rem;
+    --small-font-size:.813rem;
+    --mr-1:.5rem;
+    --mr-2:1rem;
+    --mr-3:1.5rem;
+    --mr-4:2rem;
+    --z-fixed:100;
+}
+
+.about_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    background-image: linear-gradient(to bottom right,rgb(219, 211, 209),rgb(9, 74, 180));
+}
+.profile-picture2 {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    width: 300px;
+  }
+.profile-picture-background2 {
+    height:100%;
+    width: 92%;
+    background-image: url(../../assets/PP4.jpeg);
+    border-radius: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.sec-cont2{
+    width:40%;
+}
+
+.about_subtitle
+{
+    color: var(--first-color);
+    margin: var(--mr-1);
+}
+
+.about_text
+{
+    margin-bottom: var(--mr-4);
+}
+
+.about_profession
+{
+    font-size:large;
+    display: block;
+    margin-bottom: var(--mr-4);
+}
+.colz2 .colz-icon2 i{
+    color:white;
+    padding:10px;
+    padding-left: 0px;
+}
+.colz2 .colz-icon2 i:hover{
+    transform:scale(1.5);
+    color: #a496a7;
+    box-shadow: #a496a7;
+    text-shadow:#a496a7;
+
+}
+

@@ -1,0 +1,73 @@
+.cont{
+width:100%;
+padding-top:20px;
+display: flex;
+flex-direction:column;
+
+}
+.about-h{
+  margin-top:30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#080561;
+  font-size:xx-large;
+  font-family: "Poppins Bold";
+  background-color: white;
+  font-weight: 1000;
+}
+
+.collapsible {
+    background-color:rgba(161, 118, 65, 0.151);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border:none;
+    border-bottom: solid rgba(203, 149, 82, 0.432) 2px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    display:block;
+    align-items: center;
+    border-radius: 20px;
+
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(189, 186, 186);
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content1{
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    width: 1200px;
+    transition: max-height 0.2s ease-in-out;
+    background-color: #f1f1f1;
+    font-size: 20px;
+  }
+  .content1 a{
+    text-decoration: none;
+  }
+  .checked {
+    color: orange;
+  }
+  .cont2{
+    width: 90%;
+    margin:0 auto;
+    margin-bottom: 10px;
+  }
